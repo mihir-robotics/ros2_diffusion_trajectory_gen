@@ -1,0 +1,42 @@
+# Colcon / ROS 2 workspace
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+*.egg
+
+# CMake / compile artifacts (in-package builds)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# IDE / editor
+.vscode/browse.vc.db*
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+
+# OS / WSL
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+
+# Local env
+.env
+.venv/
+venv/
+
+# Cursor / Agent settings
+AGENTS.md
+.cursor/
